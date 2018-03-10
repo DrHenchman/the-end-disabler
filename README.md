@@ -5,10 +5,8 @@ advancement and reward function.
 
 ## Features
 
-* Automatically detect a player which enters the end and kill them
-* Before killing them, switch on the keepInventory gamerule
-* After killing them, switch keepInventory gamerule back to what it was
-* Reset the advancement so the process is repeatable
+* Automatically detect a player which enters the end and teleport them back to
+  there spawn point
 
 ## How to install
 

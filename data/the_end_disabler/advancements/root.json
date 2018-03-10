@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_egg"
+    },
+    "title": "Do Not Enter The End",
+    "description": "The End is disabled, you will be killed on entering",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "enter_the_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_end"
+      }
+    }
+  },
+  "rewards": {
+    "function": "the_end_disabler:tp_player"
+  }
+}
