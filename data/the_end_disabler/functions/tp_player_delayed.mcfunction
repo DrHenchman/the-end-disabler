@@ -1,0 +1,1 @@
+schedule function the_end_disabler:tp_players 2t

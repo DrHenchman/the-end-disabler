@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "the_end_disabler:tp_player"
+    "function": "the_end_disabler:tp_player_delayed"
   }
 }
